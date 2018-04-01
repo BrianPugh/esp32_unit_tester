@@ -7,6 +7,14 @@ folder; if you do this, create a symbolic link between the ``components`` folder
 in this project and that third-party-components directory. An alternative is to
 add that path to the ``EXTRA_COMPONENT_DIRS`` in the Makefile.
 
+In
+```
+make menuconfig
+```
+you must specify the included partition table. Also disable
+```
+Watch CPU0 Idle Task
+```
 # How to run a unit test
 ```
 make flash TEST_COMPONENTS='${COMPONENT_NAME}' monitor
