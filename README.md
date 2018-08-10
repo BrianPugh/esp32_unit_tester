@@ -19,6 +19,7 @@ Watch CPU0 Idle Task
 ```
 make flash TEST_COMPONENTS='${COMPONENT_NAME}' monitor
 ```
+`COMPONENT_NAME` is dictated by the component's folder name.
 
 # Sources
 Thanks to [mh-dev and his repo](https://github.com/mh-dev/esp32_reusable_components)
